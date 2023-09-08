@@ -1,0 +1,85 @@
+body{
+background-color:#f9f7f1;
+  background-repeat: no-repeat;
+  background-position: right left;
+  margin-right: 0px;
+  background-attachment: fixed;
+
+}
+h1{
+    position: relative;
+    width: 10%;
+    right: -120px;
+    border: 3px double #2f2f2f;
+    padding: 10px 15px 10px 15px;
+    line-height: 20px;
+    display: inline-block;
+}
+header{
+    font-family: 'Arial';
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+    position: relative;
+}
+
+.weatherforcastbox{
+    position: relative;
+    width: 12%;
+    left: 10px;
+    border: 3px double #2f2f2f;
+    padding: 10px 15px 10px 15px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0 50px 20px -360px;
+}
+.subhead{
+    text-align:center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 750px;
+  border-right: 2px double black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ *{
+box-sizing: border-box;
+}
+h2{
+font-family:garamond;
+  text-align:center;
+pading:10px;}
+p{
+font-family:arial;
+text-align:justify;}
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 2px solid black;
+  text-align:justify;
+  font-family:arial;
+}
+ img:hover {
+  opacity: 0.5;
+}
+
+
